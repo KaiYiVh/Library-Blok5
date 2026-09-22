@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: white;
+}
+
+/* NAVBAR */
+.navbar {
+    background: lightgray;
+    padding: 15px;
+    color: white;
+}
+
+.nav-container {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.hero {
+    background: black;
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+}
+.footer{
+    background: gray;
+    color: white;
+    padding: 40px 20px;
+    margin-top: 50px;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background: lightgray;
+    text-align: center;
+}
+.books{
+    color: black;
+    padding: 60px 20px;
+    text-align: center; 
+}
+
+.card {
+    display: flex;
+    gap: 25px;
+    margin-top: 30px;
+}
+.img{
+    width: 200px;
+    height: 300px;
+
+}
+
+.filter-block {
+    margin-bottom: 25px;
+}
+
+.filter-block a {
+    display: block;
+    padding: 6px 0;
+    color: #333;
+    text-decoration: none;
+}
+.search-bar{
+    display: block;
+}
